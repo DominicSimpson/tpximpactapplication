@@ -2,7 +2,7 @@ body {
     background-color:  rgb(248, 234, 216);
 }
 
-.graphic-shapes {
+.columns {
 display: flex;
 }
 
@@ -31,7 +31,7 @@ display: flex;
 /* Column 2 */
 
 .column2 {
-    width: 45px;
+    width: 42px;
 }
 
 .pink-column2a {
@@ -39,7 +39,7 @@ display: flex;
     height: 275px;
 }
 
-.lightgray-column2 {
+.lightgrey-column2 {
     background-color: rgb(211,211,211);
     height: 100px;
 }
@@ -47,4 +47,89 @@ display: flex;
 .pink-column2b {
     background-color: pink;
     height: 125px;
+}
+
+/* Column 3 */
+
+.column3 {
+    width: 65px;
+}
+
+.white-column3 {
+    background-color: rgb(248, 234, 216);
+    height: 200px;
+}
+
+.black-column3 {
+    background-color: black;
+    height: 150px;
+}
+
+.grey-column3 {
+    background-color: grey;
+    height: 150px;
+}
+
+/* Column 4 */
+
+.column4 {
+    width: 85px;
+}
+
+.purple-column4 {
+    background-color: purple;
+    height: 150px;
+}
+
+.pink-column4 {
+    background-color: pink;
+    height: 150px;
+}
+
+.lightgrey-column4 {
+    background-color: rgb(211,211,211);
+    height: 200px;
+}
+
+
+/* Column 5 */
+
+.column5 {
+    width: 42px;
+}
+
+.pink-column5 {
+    background-color: pink;
+    height: 100px;
+}
+
+.lightgrey-column5 {
+    background-color: rgb(248, 234, 216);
+    height: 125px;
+}
+
+.black-column5 {
+    background-color: black;
+    height: 275px;
+}
+
+/* Column 6 */
+
+.column6 {
+    width: 70px;
+}
+
+.grey-column6 {
+    background-color: grey;
+    height: 50px;
+}
+
+.purple-column6 {
+    background-color: purple;
+    height: 100px;
+}
+
+.pink-column6 {
+    background-color: pink;
+    height: 350px;
 }

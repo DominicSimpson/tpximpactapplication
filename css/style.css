@@ -81,7 +81,7 @@ body {
 
 .purple-column4 {
     background-color: purple;
-    height: 130px;
+    height: 125px;
 }
 
 .pink-column4 {
@@ -91,7 +91,7 @@ body {
 
 .lightgrey-column4 {
     background-color: rgb(211,211,211);
-    height: 165px;
+    height: 185px;
 }
 
 
@@ -134,7 +134,7 @@ body {
 
 .pink-column6 {
     background-color: pink;
-    height: 350px;
+    height: 375px;
 }
 
 /* Column 7 */
@@ -218,7 +218,7 @@ body {
 
 .grey-column10 {
     background-color: grey;
-    height: 185px;
+    height: 208px;
 }
 
 /* Column 11 */
@@ -260,7 +260,7 @@ body {
 
 .black-column12 {
     background-color: black;
-    height: 355px;
+    height: 380px;
 }
 
 /* Column 13 */
@@ -329,17 +329,17 @@ body {
 /* Column 16 */
 
 #column16 {
-    width: 72px;
+    width: 78px;
 }
 
 .pink-column16a {
     background-color: pink;
-    height: 130px;
+    height: 125px;
 }
 
 .lightgrey-column16 {
     background-color: rgb(211,211,211);
-    height: 205px;
+    height: 175px;
 }
 
 .pink-column16b {
@@ -376,17 +376,17 @@ body {
 
 .purple-column18 {
     background-color: purple;
-    height: 50px;
+    height: 45px;
 }
 
 .pink-column18 {
     background-color: pink;
-    height: 100px;
+    height: 80px;
 }
 
 .lightgrey-column18 {
     background-color: rgb(211,211,211);
-    height: 350px;
+    height: 375px;
 }
 
 

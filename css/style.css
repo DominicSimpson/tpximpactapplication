@@ -175,3 +175,66 @@ display: flex;
     background-color: purple;
     height: 105px;
 }
+
+/* Column 9 */
+
+.column9 {
+    width: 65px;
+}
+
+.pink-column9a {
+    background-color: pink;
+    height: 175px;
+}
+
+.lightgrey-column9 {
+    background-color: rgb(211,211,211);
+    height: 175px;
+}
+
+.pink-column9b {
+    background-color: pink;
+    height: 150px;
+}
+
+/* Column 10 */
+
+.column10 {
+    width: 65px;
+}
+
+.white-column10 {
+    background-color: rgb(248, 234, 216);
+    height: 145px;
+}
+
+.black-column10 {
+    background-color: black;
+    height: 170px;
+}
+
+.grey-column10 {
+    background-color: grey;
+    height: 185px;
+}
+
+/* Column 11 */
+
+.column11 {
+    width: 42px;
+}
+
+.purple-column11 {
+    background-color: purple;
+    height: 105px;
+}
+
+.pink-column11 {
+    background-color: pink;
+    height: 130px;
+}
+
+.lightgrey-column11 {
+    background-color: rgb(211,211,211);
+    height: 265px;
+}

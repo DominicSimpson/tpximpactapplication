@@ -133,3 +133,45 @@ display: flex;
     background-color: pink;
     height: 350px;
 }
+
+/* Column 7 */
+
+.column7 {
+    width: 25px;
+}
+
+.lightgrey-column7 {
+    background-color: rgb(211,211,211);
+    height: 350px;
+}
+
+.pink-column7 {
+    background-color: pink;
+    height: 100px;
+}
+
+.white-column7 {
+    background-color: rgb(248, 234, 216);
+    height: 50px;
+}
+
+/* Column 8 */
+
+.column8 {
+    width: 42px;
+}
+
+.black-column8 {
+    background-color: black;
+    height: 265px;
+}
+
+.grey-column8 {
+    background-color: grey;
+    height: 130px;
+}
+
+.purple-column8 {
+    background-color: purple;
+    height: 105px;
+}

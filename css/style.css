@@ -285,3 +285,67 @@ body {
     height: 50px;
 }
 
+/* Column 14 */
+
+#column14 {
+    width: 42px;
+}
+
+.lightgrey-column14 {
+    background-color: rgb(211,211,211);
+    height: 250px;
+}
+
+.pink-column14 {
+    background-color: pink;
+    height: 175px;
+}
+
+.white-column14 {
+    background-color: rgb(248, 234, 216);
+    height: 115px;
+}
+
+/* Column 15 */
+
+#column15 {
+    width: 62px;
+}
+
+.black-column15 {
+    background-color: black;
+    height: 175px;
+}
+
+.grey-column15 {
+    background-color: pink;
+    height: 175px;
+}
+
+.purple-column15 {
+    background-color: purple;
+    height: 150px;
+}
+
+/* Column 16 */
+
+#column16 {
+    width: 68px;
+}
+
+.pink-column16a {
+    background-color: pink;
+    height: 95px;
+}
+
+.lightgrey-column16 {
+    background-color: rgb(211,211,211);
+    height: 205px;
+}
+
+.pink-column16b {
+    background-color: pink;
+    height: 200px;
+}
+
+

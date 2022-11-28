@@ -7,7 +7,7 @@ body {
 }
 
 .column {
-    border: 0.25px solid rgb(57, 56, 56);
+    border: 0.01px solid rgb(135, 132, 132);
 }
 
 /* Column 1 */
@@ -203,7 +203,7 @@ body {
 
 /* Column 10 */
 
-.column10 {
+#column10 {
     width: 65px;
 }
 
@@ -224,7 +224,7 @@ body {
 
 /* Column 11 */
 
-.column11 {
+#column11 {
     width: 42px;
 }
 
@@ -242,3 +242,46 @@ body {
     background-color: rgb(211,211,211);
     height: 265px;
 }
+
+/* Column 12 */
+
+#column12 {
+    width: 70px;
+}
+
+.pink-column12 {
+    background-color: pink;
+    height: 40px;
+}
+
+.white-column12 {
+    background-color: rgb(248, 234, 216);
+    height: 105px;
+}
+
+.black-column12 {
+    background-color: black;
+    height: 355px;
+}
+
+/* Column 13 */
+
+#column13 {
+    width: 25px;
+}
+
+.grey-column13 {
+    background-color: grey;
+    height: 350px;
+}
+
+.purple-column13 {
+    background-color: purple;
+    height: 100px;
+}
+
+.pink-column13 {
+    background-color: pink;
+    height: 50px;
+}
+

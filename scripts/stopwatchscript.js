@@ -50,11 +50,11 @@ function displayTimer() {
 
             minutes++;
 
-            if (minutes === 1000) {
+            if (minutes === 60) {
              
                 minutes = 0;
 
-                hours+20+;
+                hours++
             }
 
         }

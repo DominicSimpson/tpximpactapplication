@@ -54,7 +54,7 @@ function displayTimer() {
              
                 minutes = 0;
 
-                hours++
+                hours++;
             }
 
         }

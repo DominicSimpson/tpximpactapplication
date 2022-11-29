@@ -1,6 +1,6 @@
 console.log("Hello world!");
 
-let [hours, minutes, seconds, milliseconds] = [0,0,0,0]; // Internal units of time initialised to zero
+let [milliseconds, seconds, minutes, hours] = [0,0,0,0]; // Internal units of time initialised to zero
 
 let timerDisplay = document.querySelector('.timerDisplay'); // initalised variable for timer display block
 let currentInterval = null; // initialized overall recorded time
@@ -29,15 +29,51 @@ document.getElementById('pauseTimer').addEventListener('click', () => { // pause
 document.getElementById('resetTimer').addEventListener('click', () => { // reset timer button
 
         clearInterval(currentInterval);
-        [hours, minutes, seconds, milliseconds] = [0,0,0,0]; // Resets internal units of time
+        [milliseconds, seconds, minutes, hours] = [0,0,0,0]; // Resets internal units of time
         timerDisplay.innerHTML = '00 : 00 : 00 : 00 '; // Resets units of time on screen
 
 })
 
 
+function displayTimer() {
+
+    milliseconds +=10;
+    
+    if (milliseconds === 1000) {
+
+        milliseconds = 0;
+
+        seconds++;
+
+        if (seconds === 60) {
+            
+            seconds = 0;
+
+            minutes++;
+
+            if (minutes === 60) {
+             
+                minutes === 0;
+
+                hours++;
+            }
+
+        }
+    }
 
 
+let h = hours < 10 ? "0" + hours : hours; // ternary operator
 
+let m = minutes < 10 ? "0" + minutes : minutes;
+
+let s = seconds < 10 ? "0" + seconds : seconds; 
+
+let ms = milliseconds < 10 ? "00" + milliseconds : milliseconds < 100 ? "0" + milliseconds: milliseconds;
+
+timerDisplay.innerHTML = ` ${h} : ${m} : ${s} : ${ms}`; // use of template literals
+
+
+}
 
 
 

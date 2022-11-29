@@ -1,6 +1,6 @@
 console.log("Hello world!");
 
-let [milliseconds, seconds, minutes, hours] = [0,0,0,0]; // Internal units of time initialised to zero
+let [hours, minutes, seconds, milliseconds] = [0,0,0,0]; // Internal units of time initialised to zero
 
 let timerDisplay = document.querySelector('.timerDisplay'); // initalised variable for timer display block
 let currentInterval = null; // initialized overall recorded time
@@ -17,7 +17,6 @@ document.getElementById('startTimer').addEventListener('click', () => { // start
     }
 )
 
-
 document.getElementById('pauseTimer').addEventListener('click', () => { // pause timer button
 
         clearInterval(currentInterval); // pause function on stopwatch
@@ -29,7 +28,7 @@ document.getElementById('pauseTimer').addEventListener('click', () => { // pause
 document.getElementById('resetTimer').addEventListener('click', () => { // reset timer button
 
         clearInterval(currentInterval);
-        [milliseconds, seconds, minutes, hours] = [0,0,0,0]; // Resets internal units of time
+        [hours, minutes, seconds, milliseconds] = [0,0,0,0]; // Resets internal units of time
         timerDisplay.innerHTML = '00 : 00 : 00 : 00 '; // Resets units of time on screen
 
 })
@@ -38,7 +37,7 @@ document.getElementById('resetTimer').addEventListener('click', () => { // reset
 function displayTimer() {
 
     milliseconds +=10;
-    
+
     if (milliseconds === 1000) {
 
         milliseconds = 0;
@@ -51,9 +50,9 @@ function displayTimer() {
 
             minutes++;
 
-            if (minutes === 60) {
+            if (minutes === 1000) {
              
-                minutes === 0;
+                minutes = 0;
 
                 hours++;
             }

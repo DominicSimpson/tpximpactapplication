@@ -48,6 +48,7 @@ h2 {
 .black-column1 {
     background-color: black;
     height: 350px;
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgb(46, 46, 48) 35%, rgb(54, 55, 55) 100%);
 }
 
 .darkgrey-column1 {

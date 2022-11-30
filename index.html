@@ -34,6 +34,7 @@
           <div id="column2">
 
             <div class="pink-column2a column"></div>
+
             <div class="lightgrey-column2 column">
               <svg viewBox="0 0 243 243"
               xmlns='http://www.w3.org/2000/svg'>
@@ -47,6 +48,7 @@
                 filter="url(#noiseFilter)">
               </svg>
             </div>
+
             <div class="pink-column2b column"></div>
 
           </div>
@@ -63,7 +65,20 @@
 
             <div class="purple-column4 column"></div>
             <div class="pink-column4 column"></div>
-            <div class="lightgrey-column4 column"></div>
+
+          <div class="lightgrey-column4 column">
+              <svg viewBox="0 0 243 243"
+              xmlns='http://www.w3.org/2000/svg'>
+                <filter id="noiseFilter">
+                  <feTurbulence type="fractalNoise"
+                    baseFrequency="1.5">
+                  </feTurbulence>
+                </filter>
+
+                <rect width="42%" height="85%"
+                filter="url(#noiseFilter)">
+              </svg>
+            </div>
 
           </div>
 

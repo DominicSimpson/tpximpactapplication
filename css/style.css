@@ -265,7 +265,7 @@ svg {
     height: 170px;
 }
 
-.grey-column10 {
+.darkgrey-column10 {
     background-color: rgb(157, 157, 157);
     height: 208px;
 }
@@ -290,6 +290,12 @@ svg {
     background-color: rgb(211,211,211);
     height: 265px;
 }
+
+svg {
+    width: 200px;
+    height: 200px;
+  }
+
 
 /* Column 12 */
 
@@ -343,6 +349,11 @@ svg {
     background-color: rgb(211,211,211);
     height: 250px;
 }
+
+svg {
+    width: 200px;
+    height: 200px;
+  }
 
 .pink-column14 {
     background-color: rgb(232, 77, 196);

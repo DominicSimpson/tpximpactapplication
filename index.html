@@ -208,9 +208,23 @@
           <div id="column10">
 
             <div class="white-column10"></div>
-            <div class="black-column10 column"></div>
-            <div class="darkgrey-column10 column"></div>
 
+            <div class="black-column10 column"></div>
+            
+            <div class="darkgrey-column10 column">
+              <svg viewBox="0 0 143 143"
+              xmlns='http://www.w3.org/2000/svg'>
+                <filter id="noiseFilter">
+                  <feTurbulence type="fractalNoise"
+                    baseFrequency="1.5">
+                  </feTurbulence>
+                </filter>
+
+                <rect width="35%" height="100%"
+                filter="url(#noiseFilter)">
+              </svg>
+           </div>
+          
           </div>
 
           <div id="column11">
@@ -244,7 +258,20 @@
 
           <div id="column13">
 
-            <div class="darkgrey-column13 column"></div>
+            <div class="darkgrey-column13 column">
+              <svg viewBox="0 0 143 143"
+              xmlns='http://www.w3.org/2000/svg'>
+                <filter id="noiseFilter">
+                  <feTurbulence type="fractalNoise"
+                    baseFrequency="1.5">
+                  </feTurbulence>
+                </filter>
+
+                <rect width="35%" height="100%"
+                filter="url(#noiseFilter)">
+              </svg>
+            </div>
+
             <div class="purple-column13 column"></div>
             <div class="pink-column13 column"></div>
 

@@ -402,6 +402,11 @@ svg {
     height: 175px;
 }
 
+svg {
+    width: 200px;
+    height: 200px;
+  }
+
 .pink-column16b {
     background-color: rgb(232, 77, 196);
     height: 200px;
@@ -448,6 +453,11 @@ svg {
     background-color: rgb(211,211,211);
     height: 375px;
 }
+
+svg {
+    width: 200px;
+    height: 200px;
+  }
 
 
 

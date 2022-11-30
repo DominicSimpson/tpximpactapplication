@@ -50,8 +50,8 @@ h2 {
     height: 350px;
 }
 
-.grey-column1 {
-    background-color: grey;
+.darkgrey-column1 {
+    background-color: rgb(157, 157, 157);
     height: 100px;
 }
 
@@ -63,7 +63,7 @@ h2 {
 /* Column 2 */
 
 #column2 {
-    width: 42px;
+    width: 42px;    
 }
 
 .pink-column2a {
@@ -75,6 +75,11 @@ h2 {
     background-color: rgb(211,211,211);
     height: 100px;
 }
+
+svg {
+    width: 200px;
+    height: 200px;
+  }
 
 .pink-column2b {
     background-color: rgb(232, 77, 196);
@@ -97,8 +102,8 @@ h2 {
     height: 150px;
 }
 
-.grey-column3 {
-    background-color: grey;
+.darkgrey-column3 {
+    background-color: rgb(157, 157, 157);
     height: 150px;
 }
 
@@ -131,7 +136,7 @@ h2 {
 }
 
 .pink-column5 {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 100px;
 }
 
@@ -151,19 +156,19 @@ h2 {
     width: 70px;
 }
 
-.grey-column6 {
-    background-color: grey;
+.darkgrey-column6 {
+    background-color: rgb(157, 157, 157);
     height: 50px;
 }
 
 .purple-column6 {
     background-color: purple;
-    height: 75px;
+    height: 73px;
 }
 
 .pink-column6 {
-    background-color: pink;
-    height: 375px;
+    background-color: rgb(232, 77, 196);
+    height: 377px;
 }
 
 /* Column 7 */
@@ -178,7 +183,7 @@ h2 {
 }
 
 .pink-column7 {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 100px;
 }
 
@@ -198,8 +203,8 @@ h2 {
     height: 265px;
 }
 
-.grey-column8 {
-    background-color: grey;
+.darkgrey-column8 {
+    background-color: rgb(157, 157, 157);
     height: 130px;
 }
 
@@ -215,7 +220,7 @@ h2 {
 }
 
 .pink-column9a {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 175px;
 }
 
@@ -225,7 +230,7 @@ h2 {
 }
 
 .pink-column9b {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 150px;
 }
 
@@ -246,7 +251,7 @@ h2 {
 }
 
 .grey-column10 {
-    background-color: grey;
+    background-color: rgb(157, 157, 157);
     height: 208px;
 }
 
@@ -262,7 +267,7 @@ h2 {
 }
 
 .pink-column11 {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 130px;
 }
 
@@ -278,7 +283,7 @@ h2 {
 }
 
 .pink-column12 {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 40px;
 }
 
@@ -298,8 +303,8 @@ h2 {
     width: 25px;
 }
 
-.grey-column13 {
-    background-color: grey;
+.darkgrey-column13 {
+    background-color: rgb(157, 157, 157);
     height: 350px;
 }
 
@@ -309,7 +314,7 @@ h2 {
 }
 
 .pink-column13 {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 50px;
 }
 
@@ -325,7 +330,7 @@ h2 {
 }
 
 .pink-column14 {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 175px;
 }
 
@@ -345,8 +350,8 @@ h2 {
     height: 175px;
 }
 
-.grey-column15 {
-    background-color: pink;
+.darkgrey-column15 {
+    background-color: rgb(157, 157, 157);
     height: 175px;
 }
 
@@ -362,7 +367,7 @@ h2 {
 }
 
 .pink-column16a {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 125px;
 }
 
@@ -372,7 +377,7 @@ h2 {
 }
 
 .pink-column16b {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 200px;
 }
 
@@ -392,8 +397,8 @@ h2 {
     height: 150px;
 }
 
-.grey-column17 {
-    background-color: grey;
+.darkgrey-column17 {
+    background-color: rgb(157, 157, 157);
     height: 287px;
 }
 
@@ -409,7 +414,7 @@ h2 {
 }
 
 .pink-column18 {
-    background-color: pink;
+    background-color: rgb(232, 77, 196);
     height: 80px;
 }
 

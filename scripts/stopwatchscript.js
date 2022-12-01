@@ -87,7 +87,7 @@ let s = seconds < 10 ? "0" + seconds : seconds;
 
 let cs = centiseconds < 10 ? "00" + centiseconds : centiseconds < 100 ? "0" + centiseconds: centiseconds;
 
-timerDisplay.innerHTML = ` ${h} : ${m} : ${s} : ${cs}`; // use of template literals
+timerDisplay.innerHTML = ` ${h} : ${m} : ${s} : ${cs}`; // use of template literals when matching units of time with those on screen
 
 
 }

@@ -2,6 +2,12 @@
 
 ---
 
+## Background
+
+### I very much enjoyed working on both parts of my TPXImpact application technical challenge. Here is an exposition of how I approached both challenges, and realised them to the best of my ability.
+
+---
+
 ## Part One: HTML / CSS (index.html, style.css in repository)
 
 [View first part of application live here](https://dominicsimpson.github.io/tpximpactapplication)
@@ -32,7 +38,9 @@
 
 ## Part Two: Stopwatch (stopwatch.html, stopwatchstyle.css, stopwatchscript.js in repository)
 
-### For the second part of my TPXImpact application, I produced a stopwatch, using the specified time of 00:00:00:00 (hours, minutes, seconds, centiseconds). The final version of this can be viewed below:
+### For the second part of my TPXImpact application, I had to produce a stopwatch, using the specified time of 00:00:00:00 (hours, minutes, seconds, centiseconds). The stopwatch ideally had to include a laps feature, which I have included.
+
+### The final version of this can be viewed below:
 
 ![screenshot(9)](https://user-images.githubusercontent.com/52511353/205179498-f40d2695-bf39-48c2-ad7e-ff4fa88b15e5.png)
 

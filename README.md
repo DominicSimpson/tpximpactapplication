@@ -20,7 +20,7 @@
 ### I gave the body a colour that approximated that of the poster as much as possible, ```rgb(248, 234, 216)```.
 ### I then created eighteen columns, each delineated in the HTML with its own column ID, and with each column containing three divs for the three colour elements, or 'sections', in each column. I used mathmatical calculations to make the three sections of each column add up to 500px in the CSS, thus making the height of each column roughly the same (though there are in irregularities at the bottom of the columns).
 ### I then started applying the colours in CSS. It became obvious quickly that I would have to do quite a bit of work to replicate the gradient element effects that you can see in the colours in the original. But before that, I had to try and approximate the colours generally that you can see in the original image as much as possible. My own [colour picker](https://github.com/DominicSimpson/facprecolorpicker), which I completed as a pre-course task for Founders & Coders, was useful, as was [other online colour pickers](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF). But ultimately, using the colour pallette built into Visual Studio Code when working on CSS colours, was just as helpful.
-## For the dark colours - black and purple, the latter a dark shade of purple - I used linear-gradient effects to approximate the light tinge which hangs over these two colours in the original image. 
+### For the dark colours - black and purple, the latter a dark shade of purple - I used linear-gradient effects to approximate the light tinge which hangs over these two colours in the original image. 
 
 
 

@@ -4,6 +4,8 @@ let [hours, minutes, seconds, milliseconds] = [0,0,0,0]; // Internal units of ti
 
 let timerDisplay = document.querySelector('.timerDisplay'); // initalised variable for timer display block
 let currentInterval = null; // initialized overall recorded time
+let laps = null;
+let lapNow = null;
 
 
 document.getElementById('startTimer').addEventListener('click', () => { // start timer button
@@ -32,6 +34,16 @@ document.getElementById('resetTimer').addEventListener('click', () => { // reset
         timerDisplay.innerHTML = '00 : 00 : 00 : 00 '; // Resets units of time on screen
 
 })
+
+document.getElementById('lapTimer').addEventListener('click', () => { // lap timer button
+
+        lapNow = `<div class="lap">${hours} : ${minutes} : ${seconds} : ${milliseconds}</div>`;
+        lapRecord.innerHTML += lapNow;
+        lapNow +1;
+
+}
+)
+
 
 
 function displayTimer() {

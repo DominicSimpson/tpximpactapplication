@@ -41,10 +41,14 @@ document.getElementById('lapTimer').addEventListener('click', () => { // lap tim
         lapNow = `<div class="lap">${laps }. ${hours} : ${minutes} : ${seconds} : ${milliseconds}</div>`;
         lapRecord.innerHTML += lapNow;
         laps++;
-
 }
 )
 
+document.getElementById('clearLapTimer').addEventListener('click', () => { // lap timer button
+
+        lapRecord.innerHTML = '';        
+}
+)
 
 
 function displayTimer() {

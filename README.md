@@ -66,6 +66,6 @@
 
 ![screenshot(10)](https://user-images.githubusercontent.com/52511353/205178978-4df46f13-00da-4233-bf3d-db43ab2aa632.png)
 
-I wanted a futuristic, technological-looking font for the logo of the stopwatch, and settled accordingly on Press Start 2P from Google Fonts. I also used the same body colour as Part One for consistency. Finally, I ensured that each button had a contrastingly different colour, so as not to associate sub-groups of buttons with each other, which could confuse the user. 
+###### I wanted a futuristic, technological-looking font for the logo of the stopwatch, and settled accordingly on Press Start 2P from Google Fonts. I also used the same body colour as Part One for consistency. Finally, I ensured that each button had a contrastingly different colour, so as not to associate sub-groups of buttons with each other, which could confuse the user. 
 
 ---

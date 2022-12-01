@@ -44,7 +44,7 @@
 
 ![screenshot(9)](https://user-images.githubusercontent.com/52511353/205179498-f40d2695-bf39-48c2-ad7e-ff4fa88b15e5.png)
 
-###### In order to create the stopwatch, I created the following variables:
+###### In order to create the stopwatch, I created the following variables and buttons:
 
 | Variables                               | Description                                                       | Type                  |
 | -------------                           |:-------------:                                                    | -----:                |

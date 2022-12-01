@@ -6,7 +6,7 @@ let timerDisplay = document.querySelector('.timerDisplay'); // initalised variab
 let currentInterval = null; // initialized overall recorded time
 let lapRecord = document.getElementById('lapRecord');
 let laps = 1; // initalizing number of laps
-let lapNow = null;
+let lapNow = null; // initialized record of laps
 
 
 document.getElementById('startTimer').addEventListener('click', () => { // start timer button
@@ -40,14 +40,14 @@ document.getElementById('lapTimer').addEventListener('click', () => { // lap tim
 
         lapNow = `<div class="lap">${laps }. ${hours} : ${minutes} : ${seconds} : ${milliseconds}</div>`;
         lapRecord.innerHTML += lapNow;
-        laps++;
+        laps++; // displays each lap in numerical order, starting from 1
 }
 )
 
 document.getElementById('clearLapTimer').addEventListener('click', () => { // lap timer button
 
         lapRecord.innerHTML = '';   
-        laps = 1;            
+        laps = 1; // ensures that any further laps are displayed in numerical order starting from 1 again            
 }
 )
 
@@ -79,7 +79,7 @@ function displayTimer() {
     }
 
 
-let h = hours < 10 ? "0" + hours : hours; // ternary operator
+let h = hours < 10 ? "0" + hours : hours; // ternary operator used to show digits in timer
 
 let m = minutes < 10 ? "0" + minutes : minutes;
 

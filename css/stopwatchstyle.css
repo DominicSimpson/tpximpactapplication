@@ -80,6 +80,7 @@ h2 {
       cursor:                 pointer;
       outline:                none;
       margin:                 10px;
+      border:                 0.5px solid black;
 }
 
 #startTimer {
@@ -96,6 +97,7 @@ h2 {
 
 #clearLapTimer {
       background-color:       fuchsia;
+      font-size:              1rem;
 }
 
 .buttons button:nth-last-child(2) {

@@ -57,7 +57,7 @@ h2 {
 }
 
 .purple-column1 {
-    background-color: purple;
+    background-color: rgb(94, 8, 94);
     height: 50px;
 }
 
@@ -116,7 +116,7 @@ svg {
 }
 
 .purple-column4 {
-    background-color: purple;
+    background-color: rgb(94, 8, 94);
     height: 125px;
 }
 
@@ -170,7 +170,7 @@ svg {
 }
 
 .purple-column6 {
-    background-color: purple;
+    background-color: rgb(94, 8, 94);
     height: 73px;
 }
 
@@ -213,7 +213,7 @@ svg {
 
 .black-column8 {
     background-color: black;
-    height: 265px;
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgb(46, 46, 48) 35%, rgb(54, 55, 55) 100%);
 }
 
 .darkgrey-column8 {
@@ -222,7 +222,7 @@ svg {
 }
 
 .purple-column8 {
-    background-color: purple;
+    background-color: rgb(94, 8, 94);
     height: 105px;
 }
 
@@ -266,6 +266,7 @@ svg {
 .black-column10 {
     background-color: black;
     height: 170px;
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgb(46, 46, 48) 35%, rgb(54, 55, 55) 100%);
 }
 
 .darkgrey-column10 {
@@ -280,7 +281,7 @@ svg {
 }
 
 .purple-column11 {
-    background-color: purple;
+    background-color: rgb(94, 8, 94);
     height: 105px;
 }
 
@@ -319,6 +320,7 @@ svg {
 .black-column12 {
     background-color: black;
     height: 380px;
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgb(46, 46, 48) 35%, rgb(54, 55, 55) 100%);
 }
 
 /* Column 13 */
@@ -333,7 +335,7 @@ svg {
 }
 
 .purple-column13 {
-    background-color: purple;
+    background-color: rgb(94, 8, 94);
     height: 100px;
 }
 
@@ -377,6 +379,7 @@ svg {
 .black-column15 {
     background-color: black;
     height: 175px;
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgb(46, 46, 48) 35%, rgb(54, 55, 55) 100%);
 }
 
 .darkgrey-column15 {
@@ -385,7 +388,7 @@ svg {
 }
 
 .purple-column15 {
-    background-color: purple;
+    background-color: rgb(94, 8, 94);
     height: 150px;
 }
 
@@ -429,6 +432,7 @@ svg {
 .black-column17 {
     background-color: black;
     height: 150px;
+    background: linear-gradient(90deg, rgba(4,4,4,1) 0%, rgb(46, 46, 48) 35%, rgb(54, 55, 55) 100%);
 }
 
 .darkgrey-column17 {
@@ -443,7 +447,7 @@ svg {
 }
 
 .purple-column18 {
-    background-color: purple;
+    background-color: rgb(94, 8, 94);
     height: 45px;
 }
 

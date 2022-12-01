@@ -48,7 +48,7 @@
 
 | Variables                               | Description                                                       | Type                  |
 | -------------                           |:-------------:                                                    | -----:                |
-| [hours, minutes, seconds, milliseconds] | Array of internal units of time                                   | Array variable        |
+| [hours, minutes, seconds, centiseconds] | Array of internal units of time                                   | Array variable        |
 | timerDisplay                            | Variable for timer display block                                  | DOM variable          |
 | currentInterval                         | Recorded time                                                     | Variable              |
 | lapRecord                               | Stores and displays each individual lap record                    | DOM variable          |

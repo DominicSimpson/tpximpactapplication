@@ -2,10 +2,6 @@
 
 ---
 
-## Background
-
----
-
 ## Part One: HTML / CSS (index.html, style.css in repository)
 
 [View first part of application live here](https://dominicsimpson.github.io/tpximpactapplication)

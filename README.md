@@ -6,7 +6,7 @@
 
 [View first part of application live here](https://dominicsimpson.github.io/tpximpactapplication)
 
-### For the first part of my application for TPXImpact, I completed a mock-up of a vintage graphic design poster in HTML and CSS. This was taken from a selection provided by TPXImpact of vintage European posters. My choice was the below - 'Literature and Cultural Life, October - December 1965', at the Süddeutscher Rundfunk Stuttgart (of which a quick Google search produced little of note). 
+### For the first part of my application for TPXImpact, I completed a mock-up of a vintage graphic design poster in HTML and CSS. This was taken from a selection provided by TPXImpact of vintage European posters. My choice was the below - 'Literature and Cultural Life, October - December 1965', at the Süddeutscher Rundfunk Stuttgart. 
 
 ![Flickr Photo Download- Hans Geipel- Prospekt f%FCr den S%FCddeutschen Rundfunk, 1965](https://user-images.githubusercontent.com/52511353/205156216-63cf4e8f-5043-4a56-8d7d-31a4f2742d66.jpg)
 

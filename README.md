@@ -33,6 +33,20 @@
 
 ![screenshot(8)](https://user-images.githubusercontent.com/52511353/205165645-3d0d6813-9f07-4c95-95b6-11fe341c08a0.png)
 
+---
+
+## Part Two: Stopwatch (stopwatch.html, stopwatchstyle.css, stopwatchscript.js in repository)
+
+### For the second part of my TPXImpact application, I produced a stopwatch. In order to do so: I created the following variables:
+
+| Variables                               | Description                                                       | Type                  |
+| -------------                           |:-------------:                                                    | -----:                |
+| [hours, minutes, seconds, milliseconds] | Array of internal units of time                                   | DOM variable          |
+| timerDisplay                            | Variable for timer display block                                  | DOM variable          |
+| currentInterval                         | Recorded time                                                     | Variable              |
+| lapRecord                               | Stores and displays each individual lap record                    | DOM variable          |
+| laps                                    | Number of each individual lap                                     | Variable              |
+| lapNow                                  | Record of each lap                                                | Variable              |
 
 
 

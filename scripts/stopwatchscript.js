@@ -5,7 +5,7 @@ let [hours, minutes, seconds, milliseconds] = [0,0,0,0]; // Internal units of ti
 let timerDisplay = document.querySelector('.timerDisplay'); // initalised variable for timer display block
 let currentInterval = null; // initialized overall recorded time
 let lapRecord = document.getElementById('lapRecord');
-let laps = 1;
+let laps = 1; // initalizing number of laps
 let lapNow = null;
 
 
@@ -46,7 +46,8 @@ document.getElementById('lapTimer').addEventListener('click', () => { // lap tim
 
 document.getElementById('clearLapTimer').addEventListener('click', () => { // lap timer button
 
-        lapRecord.innerHTML = '';        
+        lapRecord.innerHTML = '';   
+        laps = 1;            
 }
 )
 

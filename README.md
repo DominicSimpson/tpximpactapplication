@@ -37,7 +37,11 @@
 
 ## Part Two: Stopwatch (stopwatch.html, stopwatchstyle.css, stopwatchscript.js in repository)
 
-### For the second part of my TPXImpact application, I produced a stopwatch. In order to do so: I created the following variables:
+### For the second part of my TPXImpact application, I produced a stopwatch, using the specified time of 00:00:00:00 (hours, . The final version of this can be viewed below:
+
+![screenshot(9)](https://user-images.githubusercontent.com/52511353/205175757-c676df5a-fbab-4ac4-90b4-a0785d576f8d.png)
+
+### In order to create the stopwatch, I created the following variables:
 
 | Variables                               | Description                                                       | Type                  |
 | -------------                           |:-------------:                                                    | -----:                |
@@ -47,6 +51,16 @@
 | lapRecord                               | Stores and displays each individual lap record                    | DOM variable          |
 | laps                                    | Number of each individual lap                                     | Variable              |
 | lapNow                                  | Record of each lap                                                | Variable              |
+
+| Button            | Function                                                |
+| ---------         | ---------                                               |
+| Start             | Starts timer                                            |
+| Pause             | Pauses timer                                            |
+| Reset             | Resets timer to 00:00:00:00                             |
+| Lap               | Records a lap; this is then displayed                   |
+| Clear Lap History | Clears the displayed laps (but not does not stop timer) |
+
+An ```addEventListener``` connected to each button in the JavaScript then triggered a callback function which handled the functionality for each. 
 
 
 

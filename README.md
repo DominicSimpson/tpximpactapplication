@@ -37,11 +37,11 @@
 
 ## Part Two: Stopwatch (stopwatch.html, stopwatchstyle.css, stopwatchscript.js in repository)
 
-### For the second part of my TPXImpact application, I produced a stopwatch, using the specified time of 00:00:00:00 (hours, . The final version of this can be viewed below:
+### For the second part of my TPXImpact application, I produced a stopwatch, using the specified time of 00:00:00:00 (hours, minutes, seconds, centiseconds). The final version of this can be viewed below:
 
 ![screenshot(9)](https://user-images.githubusercontent.com/52511353/205175757-c676df5a-fbab-4ac4-90b4-a0785d576f8d.png)
 
-### In order to create the stopwatch, I created the following variables:
+###### In order to create the stopwatch, I created the following variables:
 
 | Variables                               | Description                                                       | Type                  |
 | -------------                           |:-------------:                                                    | -----:                |
@@ -60,7 +60,9 @@
 | Lap               | Records a lap; this is then displayed                   |
 | Clear Lap History | Clears the displayed laps (but not does not stop timer) |
 
-An ```addEventListener``` connected to each button in the JavaScript then triggered a callback function which handled the functionality for each. 
 
+###### An ```addEventListener``` connected to each button in the JavaScript then triggered a callback function which handled the functionality for each. 
 
-
+Meanwhile, a displayTimer() function handled the logic of incrementing seconds from centiseconds; minutes from seconds; and hours from minutes. In addition, the function added a zero before numbers when they are less than ten.
+In the case of milliseconds if the value is less than 10 we add ’00’ before the number, and if the value is between 10 and 100 add ‘0’ before the number.
+as well as matching each unit of time with that on the screen appropriately.  

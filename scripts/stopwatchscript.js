@@ -1,6 +1,6 @@
 console.log("Hello world!");
 
-let [hours, minutes, seconds, milliseconds] = [0,0,0,0]; // Internal units of time initialised to zero
+let [hours, minutes, seconds, centiseconds] = [0,0,0,0]; // Internal units of time initialised to zero
 
 let timerDisplay = document.querySelector('.timerDisplay'); // initalised variable for timer display block
 let currentInterval = null; // initialized overall recorded time
@@ -31,14 +31,14 @@ document.getElementById('pauseTimer').addEventListener('click', () => { // pause
 document.getElementById('resetTimer').addEventListener('click', () => { // reset timer button
 
         clearInterval(currentInterval);
-        [hours, minutes, seconds, milliseconds] = [0,0,0,0]; // Resets internal units of time
+        [hours, minutes, seconds, centiseconds] = [0,0,0,0]; // Resets internal units of time
         timerDisplay.innerHTML = '00 : 00 : 00 : 00 '; // Resets units of time on screen
 
 })
 
 document.getElementById('lapTimer').addEventListener('click', () => { // lap timer button
 
-        lapNow = `<div class="lap">${laps }. ${hours} : ${minutes} : ${seconds} : ${milliseconds}</div>`;
+        lapNow = `<div class="lap">${laps }. ${hours} : ${minutes} : ${seconds} : ${centiseconds}</div>`;
         lapRecord.innerHTML += lapNow;
         laps++; // displays each lap in numerical order, starting from 1
 }
@@ -54,11 +54,11 @@ document.getElementById('clearLapTimer').addEventListener('click', () => { // la
 
 function displayTimer() {
 
-    milliseconds +=10;
+    centiseconds +=10;
 
-    if (milliseconds === 1000) {
+    if (centiseconds === 1000) {
 
-        milliseconds = 0;
+        centiseconds = 0;
 
         seconds++;
 
@@ -85,9 +85,9 @@ let m = minutes < 10 ? "0" + minutes : minutes;
 
 let s = seconds < 10 ? "0" + seconds : seconds; 
 
-let ms = milliseconds < 10 ? "00" + milliseconds : milliseconds < 100 ? "0" + milliseconds: milliseconds;
+let cs = centiseconds < 10 ? "00" + centiseconds : centiseconds < 100 ? "0" + centiseconds: centiseconds;
 
-timerDisplay.innerHTML = ` ${h} : ${m} : ${s} : ${ms}`; // use of template literals
+timerDisplay.innerHTML = ` ${h} : ${m} : ${s} : ${cs}`; // use of template literals
 
 
 }

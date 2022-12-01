@@ -14,7 +14,7 @@
 
 ![Flickr Photo Download- Hans Geipel- Prospekt f%FCr den S%FCddeutschen Rundfunk, 1965](https://user-images.githubusercontent.com/52511353/205156216-63cf4e8f-5043-4a56-8d7d-31a4f2742d66.jpg)
 
-### And here is my final attempt at a mock-up of the image:
+### And here is my final attempt at a mock-up of the image at full screen (i.e. with the browser window at maximum size).
 ![screenshot(5)](https://user-images.githubusercontent.com/52511353/205157384-6623f8f3-2a8e-4ae1-83a2-23c6d3562f69.png)
 
 ### I gave the body a colour that approximated that of the poster as much as possible, ```rgb(248, 234, 216)```.

@@ -63,6 +63,12 @@
 
 ###### An ```addEventListener``` connected to each button in the JavaScript then triggered a callback function which handled the functionality for each. 
 
-Meanwhile, a displayTimer() function handled the logic of incrementing seconds from centiseconds; minutes from seconds; and hours from minutes. In addition, the function added a zero before numbers when they are less than ten.
-In the case of milliseconds if the value is less than 10 we add ’00’ before the number, and if the value is between 10 and 100 add ‘0’ before the number.
-as well as matching each unit of time with that on the screen appropriately.  
+###### Meanwhile, a displayTimer() function handled the logic of incrementing seconds from centiseconds; minutes from seconds; and hours from minutes. In addition, the function added a zero before numbers when they are less than ten.
+###### In the case of centiseconds, which contains a slightly more complicated logic, if the value was a single digit less than 10, the function added '00' before the number; however, if the value was between 10 and 100, the function added '0' before the number.
+###### Finally, the function matched each unit of time with that on the screen appropriately.
+
+![screenshot(10)](https://user-images.githubusercontent.com/52511353/205178978-4df46f13-00da-4233-bf3d-db43ab2aa632.png)
+
+I wanted a futuristic font for the logo of the stopwatch, and used Press Start 2P from Google Fonts. I also used the same body colour as Part One for consistency.
+
+---
